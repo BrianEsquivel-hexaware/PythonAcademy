@@ -3,7 +3,7 @@
 Before opening the code, you need to create your own version of the repository so you can save your work.
 
 - Navigate to the GitHub link provided by your instructor.
-- In the top-right corner of the page, click the Fork button.
+- In the top-right corner of the page, click the **Fork** button.
 - Click Create Fork. You now have a copy of the materials under your own GitHub account.
 
 2. Launching the Codespace
