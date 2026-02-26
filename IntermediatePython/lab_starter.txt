@@ -1,0 +1,27 @@
+
+# Write lab starter guidance to disk (does not affect the running code yet)
+
+r"""LAB STARTER (copy/paste hints)
+
+1) In app.py:
+- Add Pydantic models: KeywordsRequest, KeywordsResponse
+- Add a service function: extract_keywords_simple(text: str, top_k: int) -> list[str]
+- Add route: POST /keywords-simple
+- Add business-rule validation for top_k using HTTPException(400)
+
+2) In tests/test_api.py:
+- Add two tests:
+  a) POST /keywords-simple happy path
+  b) POST /keywords-simple top_k invalid returns 400
+
+Suggested happy-path payload:
+{
+  "text": "Data Engineering is engineering data. Data quality matters a lot.",
+  "top_k": 3
+}
+
+Expected response shape:
+{
+  "keywords": ["data", "engineering", "..."]
+}
+"""
